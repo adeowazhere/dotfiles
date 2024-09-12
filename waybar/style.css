@@ -1,0 +1,36 @@
+window {
+	border-radius: 0 0 5px 5px;
+	border: 2px solid #32b082;
+	border-top: none;
+}	
+
+window#waybar {
+	background-color: rgba(14, 12, 21, 0.75);
+        color: #32b082;
+}
+
+#workspaces button.active {
+	color: #0e0c15;
+	background-color: #32b082;
+	border-radius: 0 0 5px 5px;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#wireplumber,
+#custom-media,
+#tray,
+#mode,
+#idle_inhibitor,
+#scratchpad,
+#power-profiles-daemon,
+#mpd {
+	padding: 0 10px;
+}
