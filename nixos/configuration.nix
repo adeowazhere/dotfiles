@@ -125,10 +125,14 @@
     neofetch
     dolphin
     rofi-wayland
+    python3
+    grim
+    slurp
 
     vscodium
     spotify
     discord
+    jetbrains.idea-community
 
     nur.repos.nltch.spotify-adblock    #for installing spotify-adblock
     nur.repos.nltch.ciscoPacketTracer8 #for installing packettracer8 
