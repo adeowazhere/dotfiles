@@ -98,12 +98,6 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
   
-  nixpkgs.config.packageOverrides = pkgs: {
-    nur = import (builtins.fetchTarball "https://github.com/nix-community/NUR/archive/master.tar.gz") {
-      inherit pkgs;
-    };
-  };
-  
   fonts.packages = with pkgs; [
     font-awesome
   ];
@@ -130,12 +124,8 @@
     slurp
 
     vscodium
-    spotify
     discord
     jetbrains.idea-community
-
-    nur.repos.nltch.spotify-adblock    #for installing spotify-adblock
-    nur.repos.nltch.ciscoPacketTracer8 #for installing packettracer8 
   #  wget
   ];
 
