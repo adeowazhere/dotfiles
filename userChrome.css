@@ -1,0 +1,18 @@
+:root {
+	--link-color: #32b082 !important;
+	--urlbarView-highlight-color: #1C1B22 !important;
+	--urlbarView-highlight-background: #32b082 !important;
+}
+
+.tab-icon-image, #identity-icon, #tracking-protection-icon, img {
+	filter: sepia(1) hue-rotate(100deg) saturate(250%) brightness(0.9); 
+}
+
+.tab-icon-image[selected], tab[label="New Tab"] .tab-icon-image {
+	display: none; 
+}
+
+#identity-icon-label {
+	display: none !important;
+}
+
